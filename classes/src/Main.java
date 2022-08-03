@@ -1,12 +1,14 @@
 public class Main {
 
     public static void main(String[] args) {
-        Caneta c1 = new Caneta();
+        Caneta c1 = new Caneta("Bic", "Azul", 0.5f, true);
 
-        c1.setModelo("Bic Cristal");
-        c1.setCor("Azul");
-        System.out.println("O modelo da caneta é "+ c1.getModelo());
-        System.out.println("A cor da caneta é  "+ c1.getCor());
+        //c1.setModelo("Bic Cristal");
+        //c1.setCor("Azul");
+        //c1.setPonta(0.5F);
+        //c1.marca = "Bic";
+        c1.status();
+
     }
 
 }
